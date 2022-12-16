@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #222;
+  color: rgb(233, 52, 82);
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Personal {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  border-bottom: 1px white solid;
+}
+
+.Personal input {
+  width: 40%;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  border-bottom: 1px white solid;
+}
+
+.experience input {
+  width: 40%;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Education {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.Education input {
+  width: 40%;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
