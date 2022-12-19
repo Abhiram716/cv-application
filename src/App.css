@@ -3,7 +3,7 @@
   padding: 0px;
 }
 
-.App {
+.app {
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ header {
   flex-direction: column;
 }
 
-.Personal {
+.personal {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ header {
   border-bottom: 1px white solid;
 }
 
-.Personal input {
+.personal input {
   width: 40%;
   font-size: 30px;
   margin-top: 10px;
@@ -61,16 +61,17 @@ header {
   margin-bottom: 20px;
 }
 
-.Education {
+.education {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-bottom: 30px;
+  border-bottom: 1px solid white;
 }
 
-.Education input {
+.education input {
   width: 40%;
   font-size: 30px;
   margin-top: 10px;
